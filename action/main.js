@@ -40,7 +40,7 @@ $(document).ready(function(){
         $("html,body").animate({scrollTop: $("#opusIFE").position().top});
     });
     menuLis.eq(2).click(function(){
-        $("html,body").animate({scrollTop: $("#opusFCC").position().top});
+        $("html,body").animate({scrollTop: $("#opusFCC").position().top + 100});
     });
     menuLis.eq(3).click(function(){
         $("html,body").animate({scrollTop: $("#opusPer").position().top});
